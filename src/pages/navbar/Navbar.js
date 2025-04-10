@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { ModeToggle } from "../../components/mode-toggle";
+import { Button } from "../../components/ui/button";
+export default function Navbar() {
+    return (_jsx("header", { className: 'sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur', children: _jsxs("div", { className: 'container flex h-16 items-center justify-between', children: [_jsxs("div", { className: 'font-bold text-xl ', children: ["Abdelfadel", _jsx("span", { className: 'text-primary ', children: "." })] }), _jsxs("nav", { className: 'hidden md:flex items-center gap-6', children: [_jsx("a", { href: '#home', className: 'text-foreground/60 hover:text-foreground transition-colors ', children: "Home" }), _jsx("a", { href: '#projects', className: 'text-foreground/60 hover:text-foreground transition-colors', children: "Projects" }), _jsx("a", { href: '#about', className: 'text-foreground/60 hover:text-foreground transition-colors', children: "About" }), _jsx("a", { href: '#contact', className: 'text-foreground/60 hover:text-foreground transition-colors', children: "Contact" })] }), _jsxs("div", { className: 'flex items-center gap-4 ', children: [_jsx(ModeToggle, {}), _jsx("a", { href: '#contact', children: _jsx(Button, { className: 'border rounded-lg', children: "Let's Talk" }) })] })] }) }));
+}

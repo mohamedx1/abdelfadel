@@ -18,12 +18,16 @@ export default function Hero() {
             and visually appealing.
           </p>
           <div className='flex flex-wrap gap-4 justify-center'>
-            <Button size='lg'>
-              View Projects <ArrowRight className='ml-2 h-4 w-4' />
-            </Button>
-            <Button size='lg' variant='outline'>
-              Contact Me
-            </Button>
+            <a href='#projects'>
+              <Button size='lg'>
+                View Projects <ArrowRight className='ml-2 h-4 w-4' />
+              </Button>
+            </a>
+            <a href='#contact'>
+              <Button size='lg' variant='outline'>
+                Contact Me
+              </Button>
+            </a>
           </div>
         </div>
         <div className='w-full md:w-1/2 '>

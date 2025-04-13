@@ -1,1 +1,2 @@
-export default function LottieAnimation(): import("react/jsx-runtime").JSX.Element;
+declare const LottieAnimation: () => import("react/jsx-runtime").JSX.Element;
+export default LottieAnimation;

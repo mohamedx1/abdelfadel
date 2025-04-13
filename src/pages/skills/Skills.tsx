@@ -91,11 +91,24 @@ export function SkillsSection() {
       color: "#61DAFB",
     },
     {
+      name: "Tailwind",
+      imageUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+      color: "#38B2AC",
+    },
+    {
       name: "Bootstrap",
       imageUrl:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
       color: "#7952B3",
     },
+    {
+      name: "Next.js",
+      imageUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      color: "#000000",
+    },
+
     {
       name: "Figma",
       imageUrl:
@@ -108,18 +121,7 @@ export function SkillsSection() {
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       color: "#F7DF1E",
     },
-    {
-      name: "Next.js",
-      imageUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      color: "#000000",
-    },
-    {
-      name: "Tailwind",
-      imageUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-      color: "#38B2AC",
-    },
+
     {
       name: "Git",
       imageUrl:

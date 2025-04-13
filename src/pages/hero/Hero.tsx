@@ -30,7 +30,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className='w-full md:w-1/2 '>
+        <div className='w-full  '>
           <LottieAnimation />
         </div>
       </div>

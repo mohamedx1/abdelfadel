@@ -8,7 +8,7 @@ export default function Hero() {
     <section id='home' className='container py-24 md:py-32 '>
       <div className='flex flex-col lg:flex-row justify-center items-center   '>
         <div className='flex flex-col items-start text-start gap-2 space-y-4 w-full md:w-1/2 py-32 md:py-8  '>
-          <h1 className='text-4xl md:text-5xl font-bold leading-tight tracking-tighter md:leading-tight max-w-3xl flex flex-col'>
+          <h1 className='text-5xl font-bold leading-tight tracking-tighter md:leading-tight max-w-4xl flex flex-col'>
             <span>Hello</span>
             <span>I AM Mohamed Ali</span>
             <span>Front-End Developer</span>

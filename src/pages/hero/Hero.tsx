@@ -23,14 +23,18 @@ export default function Hero() {
                 View Projects <ArrowRight className='ml-2 h-4 w-4' />
               </Button>
             </a>
-            <a href='#contact'>
+            <a
+              href='https://drive.google.com/file/d/1LhGuLqoByG9qEEL7dFZTTnICzAO0Xidv/view?usp=drivesdk'
+              target='_blank'
+              download
+            >
               <Button size='lg' variant='outline'>
-                Contact Me
+                My Resume
               </Button>
             </a>
           </div>
         </div>
-        <div className='w-full  '>
+        <div className='w-full'>
           <LottieAnimation />
         </div>
       </div>

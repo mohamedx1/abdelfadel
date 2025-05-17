@@ -24,9 +24,8 @@ export default function Hero() {
               </Button>
             </a>
             <a
-              href='https://drive.google.com/file/d/1LhGuLqoByG9qEEL7dFZTTnICzAO0Xidv/view?usp=drivesdk'
+              href='https://drive.google.com/drive/folders/1QiKc2LzPU2x93Ljxj_TPRgC8IzNTtnwv?usp=drive_link'
               target='_blank'
-              download
             >
               <Button size='lg' variant='outline'>
                 My Resume

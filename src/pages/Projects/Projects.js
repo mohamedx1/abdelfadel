@@ -9,6 +9,7 @@ import freshCart from "../../assets/freshCart.png";
 import mealify from "../../assets/mealify.png";
 import Weather from "../../assets/Weather_App.png";
 import DANIELS from "../../assets/DANIELS.png";
+import German from "../../assets/german.png";
 import ProjectCard from "./ProjectCard";
 // Animation variants
 const sectionVariants = {
@@ -56,9 +57,20 @@ export default function ProjectsSection() {
             technology: ["React", "Tailwind", "TypeScript", "Redux", "ShadCN"],
         },
         {
+            title: "German Chemicals",
+            image: German,
+            category: "Web Applaction",
+            url: "https://germanchemicals-eg.com/",
+            description: ` My Role
+        I focused on building the frontend using React.js and Tailwind CSS, following Atomic Design principles to ensure a scalable and consistent UI.
+        I was responsible for the Products catalog and Contact forms, integrating them with the backend via WordPress REST APIs using Advanced Custom Fields (ACF).
+          `,
+            technology: ["Next.js", "Tailwind", "TypeScript", "ShadCN"],
+        },
+        {
             title: "FreshCart (E-commerce)",
             image: freshCart,
-            category: "Web Applaction",
+            category: "Profile",
             url: "https://fresh-cart-final.vercel.app/login",
             description: `The graduation project for Route Academy Front-End track, which is a full e-commerce web
               application using React.js

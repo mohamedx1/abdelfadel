@@ -2,7 +2,6 @@
 @layer theme, base, components, utilities;
 @layer base {
   :root {
-    --dark:#000000;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
@@ -26,7 +25,6 @@
   }
 
   .dark {
-    --dark:#ffffff;
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
     --card: 222.2 84% 4.9%;
